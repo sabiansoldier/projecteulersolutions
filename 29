@@ -1,0 +1,10 @@
+a = 2
+new_list = []
+
+while a<=100:
+    b = 2
+    while b <=100:
+        new_list.append(a**b)
+        b +=1
+    a += 1
+print(len(set(new_list)))
